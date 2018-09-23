@@ -1,0 +1,31 @@
+{
+  "name": "stock-predictor",
+  "version": "1.0.0",
+  "description": "Stock Predictor with Brain.js LSTM",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stock",
+    "predictor",
+    "brain.js",
+    "lstm",
+    "stock",
+    "predictor",
+    "eric",
+    "liang"
+  ],
+  "author": "Eric Liang <ericwliang94@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "brain.js": "^1.3.0",
+    "chart.js": "^2.7.2"
+  }
+}
